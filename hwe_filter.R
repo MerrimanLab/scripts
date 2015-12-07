@@ -1,6 +1,7 @@
 # A script to perform multiple testing correction on .hwe file created from using the --hardy option in plink
 # Reads in hwe file, performs correction and writes out a list of SNPs that are adjusted_p < 0.05
 #
+# run: Rscript hwe_filter.R plink.hwe ./ bonferroni
 #
 # Murray Cadzow
 # University of Otago
